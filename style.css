@@ -1,0 +1,115 @@
+nav {
+	background-color: rgb(255, 233, 233);
+	overflow: hidden;
+	padding: 16px;
+	border-bottom: 1px solid #000;
+}
+
+nav	a {
+		color: #000;
+}
+
+
+nav .navWide .wideDiv {
+	text-align: left;
+  padding: 1px;
+}
+
+nav .navWide .wideDiv a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+nav	.navNarrow i {
+	float: left;
+	cursor: pointer;
+	color: #000;
+}
+
+nav .navNarrow .narrowLinks a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	clear: left;
+	padding: 0.5px 0;
+}
+
+@media (min-width: 480px) {
+	
+	nav .navWide {
+		display: block;
+	}
+
+	nav .navNarrow {
+		display: none;
+	}
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+  background-image: url(images/236A2154\ \(3\).jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  font-size: 80px;
+  margin-left: 5px;
+  margin-top: 0;
+    margin-bottom: 0.5em;
+  color: white;
+  font-weight: 200;
+}
+
+.hero h2 {
+  color: white;
+  font-weight: 100;
+  margin-left: 5px;
+}
+
+.hero p {
+  color: rgb(255, 233, 233);
+  font-weight: lighter;
+  margin-left: 5px;
+}
+.hero .btn {
+  display: block;
+  width: 145px;
+  padding: 16px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: auto;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: rgb(255, 241, 241);
+}
+
+footer {
+  background-color: #ffeaea;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
